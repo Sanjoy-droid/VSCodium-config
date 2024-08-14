@@ -1,0 +1,33 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "workbench.colorTheme": "Moonlight",
+  "editor.linkedEditing": true,
+  "workbench.startupEditor": "none",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.wordWrap": "on",
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.allowChords": false,
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "editor.fontFamily": "'cascadia code',  monospace",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": 200,
+  "workbench.settings.applyToAllProfiles": ["editor.fontFamily"],
+  "scm.inputFontFamily": "'Cascadia Code'",
+  "terminal.integrated.fontFamily": "\"Cascadia Code Light\"",
+  "editor.fontSize": 13,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "codeium.enableCodeLens": false,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "explorer.compactFolders": false,
+  "terminal.integrated.fontSize": 13
+  // "vim.easymotionMarkerFontWeight": "normal"
+}

@@ -1,0 +1,77 @@
+// Place your key bindings in this file to override the defaults
+
+[
+  {
+    "key": "alt+oem_3",
+    "command": "-workbench.action.editorDictation.start",
+    "when": "hasSpeechProvider && !editorReadonly && !speechToTextInProgress"
+  },
+  {
+    "key": "alt+oem_3",
+    "command": "workbench.action.nextEditor",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+shift+oem_3",
+    "command": "workbench.action.previousEditor",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+2 3",
+    "command": "editor.debug.action.toggleBreakpoint",
+    "when": "debuggersAvailable && disassemblyViewFocus || debuggersAvailable && editorTextFocus"
+  },
+  {
+    "key": "f9",
+    "command": "-editor.debug.action.toggleBreakpoint",
+    "when": "debuggersAvailable && disassemblyViewFocus || debuggersAvailable && editorTextFocus"
+  },
+  {
+    "key": "f9",
+    "command": "workbench.action.files.save"
+  },
+  {
+    "key": "ctrl+s",
+    "command": "-workbench.action.files.save"
+  },
+  {
+    "key": "shift+alt+j",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "-editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+j",
+    "command": "editor.action.moveLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+down",
+    "command": "-editor.action.moveLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+k",
+    "command": "editor.action.moveLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+up",
+    "command": "-editor.action.moveLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+enter",
+    "command": "editor.action.insertLineBefore",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+enter",
+    "command": "-editor.action.insertLineBefore",
+    "when": "editorTextFocus && !editorReadonly"
+  }
+]
