@@ -1,33 +1,44 @@
 {
-  "workbench.iconTheme": "material-icon-theme",
   "extensions.experimental.affinity": {
     "asvetliakov.vscode-neovim": 1
   },
-  "workbench.colorTheme": "Moonlight",
   "editor.linkedEditing": true,
   "workbench.startupEditor": "none",
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "editor.wordWrap": "on",
   "security.workspace.trust.untrustedFiles": "open",
   "terminal.integrated.allowChords": false,
-  "terminal.integrated.enableMultiLinePasteWarning": false,
-  "editor.fontFamily": "'cascadia code',  monospace",
+  "terminal.integrated.enableMultiLinePasteWarning": "always",
+
+  // Font Settings
+  "editor.fontFamily": "Cascadia Code, monospace",
   "editor.fontLigatures": true,
-  "editor.fontWeight": 200,
-  "workbench.settings.applyToAllProfiles": ["editor.fontFamily"],
-  "scm.inputFontFamily": "'Cascadia Code'",
-  "terminal.integrated.fontFamily": "\"Cascadia Code Light\"",
-  "editor.fontSize": 13,
+  "editor.fontWeight": "300",
+  "editor.fontSize": 16,
+  "scm.inputFontFamily": "Cascadia Code",
+  "terminal.integrated.fontFamily": "Cascadia Code",
+  "terminal.integrated.fontSize": 15,
+
+  // Formatter
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
+
+  // Misc
   "codeium.enableCodeLens": false,
   "editor.cursorSmoothCaretAnimation": "on",
   "explorer.compactFolders": false,
-  "terminal.integrated.fontSize": 13
-  // "vim.easymotionMarkerFontWeight": "normal"
+  "git.openRepositoryInParentFolders": "always",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.settings.applyToAllProfiles": ["editor.fontFamily"],
+
+  // Custom identifiers
+  "sherlock.userId": "dc870350-8b15-4320-a503-57bafdbdd23d",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Catppuccin Mocha"
 }
